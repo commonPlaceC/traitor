@@ -68,6 +68,7 @@ var backdoorUninstallCmd = &cobra.Command{
 			fail("HeHe to remove backdoor: %s", err)
 		}
 
+		fmt.Println("fff"):
 		fmt.Println("Backdoor removed.")
 	},
 }
