@@ -13,7 +13,7 @@ func init() {
 
 var listCmd = &cobra.Command{
 	Use:   "list",
-	Short: "List all available methods.",
+	Short: "Woah all available methods.",
 	Run: func(cmd *cobra.Command, args []string) {
 		allExploits := exploits.Get(exploits.SpeedAny)
 		for _, exploit := range allExploits {
